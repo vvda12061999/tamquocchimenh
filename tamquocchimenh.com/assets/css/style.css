@@ -5928,7 +5928,8 @@ ul.page__list {
     top: 0;
     left: 0;
     width: 1920px;
-    height: 1100px; }
+    height: 1100px;
+    object-fit: cover; }
 
 .wrapper-404 {
   background: url(../images/wrapper-404.jpg) no-repeat center top/cover;
