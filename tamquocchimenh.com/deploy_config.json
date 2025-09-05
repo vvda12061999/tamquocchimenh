@@ -1,0 +1,41 @@
+{
+  "vps": {
+    "user": "devtech",
+    "ip": "103.77.214.231",
+    "path": "/www/wwwroot/tamquocchimenh.com"
+  },
+  "ssh": {
+    "key_path": "~/.ssh/id_rsa.pub",
+    "port": 22
+  },
+  "web_server": {
+    "user": "www-data",
+    "group": "www-data",
+    "permissions": "755"
+  },
+  "backup": {
+    "enabled": true,
+    "path": "/www/wwwroot/tamquocchimenh.com.backup"
+  },
+  "files": {
+    "include": [
+      "*.html",
+      "*.txt",
+      "assets/",
+      "imgs/",
+      "dac-sac/",
+      "faq/",
+      "huong-dan/",
+      "su-kien/",
+      "tin-tuc/",
+      "scripts/"
+    ],
+    "exclude": [
+      "temp_deploy_*",
+      "*.ps1",
+      "*.sh",
+      "deploy_config.json",
+      "README.md"
+    ]
+  }
+}
